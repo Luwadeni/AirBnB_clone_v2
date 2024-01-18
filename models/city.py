@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""
-this module creates a sub class for Basemodel named, City
-"""
-from models.base_model import BaseModel
+"""City Module for HBNB project"""
+from models.base_model import BaseModel, Base
+from sqlalchemy import Column, String, ForeignKey
+from sqlalchemy.orm import relationship
 
 
-class City(BaseModel):
-    """City Model inherits from the BaseModel
-    """
-    state_id = ""
-    name = ""
+class City(BaseModel, Base):
+    """The city class, contains state_id and name attribute"""
+    __tablename__ = 'cities'
+    name = Column(String(128), nullable=False)
+    state_id = Column(String(60), ForeignKey('states.id'), nullable=False)
+    places = relationship(
+        'Place',
+        backref='cities',
+        cascade='all, delete-orphan')

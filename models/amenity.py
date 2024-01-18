@@ -1,12 +1,18 @@
 #!/usr/bin/python3
+"""Amenity Module for HBNB project
 """
-creates a sub class for Basemodel named, Amenity
-"""
+from models.base_model import BaseModel, Base
+from sqlalchemy import Column, String
+from sqlalchemy.orm import relationship
+from models.place import Place, place_amenity
 
-from models.base_model import BaseModel
 
-
-class Amenity(BaseModel):
-    """Amenity module is inheriting from the main class.
+class Amenity(BaseModel, Base):
+    """Amenity class to store amenity information
     """
-    name = ""
+    __tablename__ = 'amenities'
+    name = Column(String(128), nullable=False)
+    place_amenities = relationship(
+        'Place',
+        secondary=place_amenity)
+    
