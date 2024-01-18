@@ -12,7 +12,7 @@ This repository contains the stages of a student project to build a clone of the
 
 
 
-## [**The console**](https://github.com/iAdamo/AirBnB_clone)
+## [**The console**](https://github.com/luwadeni/AirBnB_clone)
 **`Python`** **`OOP`**
 <h3>A command interpreter to manipulate data without a visual interface</h3>
 
