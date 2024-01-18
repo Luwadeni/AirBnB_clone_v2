@@ -36,7 +36,7 @@ This abstraction will also allow to change the type of storage easily without up
 
 <!--add the image here-->
 
- ## [**Web static**](https://github.com/iAdamo/AirBnB_clone_v2/tree/main/web_static)
+ ## [**Web static**](https://github.com/luwadeni/AirBnB_clone_v2/tree/main/web_static)
  **`HTML`** **`CSS`** **`Front-end`**
 
 Now that there is a command interpreter for managing the AirBnB objects, it’s time to make them alive!
@@ -53,7 +53,7 @@ The first step was to “design” / “sketch” / “prototype” each element
 
 We manipulated HTML and CSS languages. HTML is the structure of the page, it should be the first thing to write. CSS is the styling of the page, the design. *I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.*
 
-## [**MySQL storage**](https://github.com/iAdamo/AirBnB_clone_v2)
+## [**MySQL storage**](https://github.com/luwadeni/AirBnB_clone_v2)
 **`Python`** **`OOP`** **`Back-end`** **`SQL`** **`MySQL`** **`ORM`** **`SQLAlchemy`**
 
 In this project, you will link two amazing worlds: Databases and Python!
@@ -66,10 +66,10 @@ The purpose of an ORM is to abstract the storage to the usage. With an ORM, your
 
 *This storage engine will give an abstraction between “My object” and “How they are stored and persisted”. This means: from the console code (the command interpreter itself) and from the front-end and RestAPI to build later, there won’t be a need to pay attention (take care) of how the objects are stored.*
 
-## [**Deploy static**](https://github.com/iAdamo/AirBnB_clone_v2)
+## [**Deploy static**](https://github.com/luwadeni/AirBnB_clone_v2)
 **`DevOps`** **`Python`** **`SysAdmin`** **`Scripting`** **`CI/CD`**
 
-Ever since th completed project [**Load balancer**](https://github.com/iAdamo/alx-system_engineering-devops/tree/main/0x0F-load_balancer) of the SysAdmin track, we’ve had 2 web servers + 1 load balancer but nothing to distribute with them.
+Ever since th completed project [**Load balancer**](https://github.com/luwadeni/alx-system_engineering-devops/tree/main/0x0F-load_balancer) of the SysAdmin track, we’ve had 2 web servers + 1 load balancer but nothing to distribute with them.
 
 It’s time to make the work public!
 
@@ -81,7 +81,7 @@ This concept is important: execute commands locally or remotely. Locally means i
 
 Fabric is taking care of all network connections (SSH, SCP etc.), it’s an easy tool for transferring, executing, etc. commands from locale to a remote server.
 
-## [**Web framework**](https://github.com/iAdamo/AirBnB_clone_v2)
+## [**Web framework**](https://github.com/luwadeni/AirBnB_clone_v2)
 **`Python`** **`Back-end`** **`Webserver`** **`Flask`**
 A web framework is a software framework designed to aid the development of web applications, including web services, web resources, and web APIs. It provides a structure and a set of tools for building and managing web applications, making it easier for developers to create robust and scalable web projects.
 <a href=#>
@@ -89,9 +89,5 @@ A web framework is a software framework designed to aid the development of web a
 </a>
 
 
-### Collaborators:
-* [**Adam Sanusi Babatunde**](https://github.com/iAdamo)
-* [**Linda Nwanchukwu**](https://github.com/lyndha)
-* [**Hassanyoung Hassan**](https://github.com/Hassanyoung1)
-* [**Justin Majetich**](https://github.com/justinmajetich)
-* [**Ezra Nobrega**](https://github.com/eNobreg)
+### Collaborator:
+* [**Adam Sanusi Babatunde**](https://github.com/luwadeni)
